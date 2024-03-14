@@ -1,0 +1,46 @@
+.sidebar-container {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: bisque;
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  max-width: max-content;
+}
+
+.back-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.back-btn p {
+  margin-left: 5px;
+}
+
+.submit {
+  margin-top: 15px;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: max-content;
+  height: max-content;
+  border-radius: 5px;
+  border: 2px solid rgb(122, 156, 252);
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar-container {
+    width: 100%;
+  }
+}
